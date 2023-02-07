@@ -4,13 +4,12 @@ using MagicVilla_VillaApi.Models.Dto;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MagicVilla_VillaApi.Controllers
+namespace MagicVilla_VillaApi.Controllers 
 {
     [Route("api/VillaAPI")]
     [ApiController]  
     public class VillaAPIController : ControllerBase
     {
-       
        
 
         public VillaAPIController()
