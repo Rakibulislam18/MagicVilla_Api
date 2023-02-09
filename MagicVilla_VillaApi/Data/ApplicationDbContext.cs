@@ -62,8 +62,19 @@ namespace MagicVilla_VillaApi.Data
                   Sqft = 900,
                   Amenity = "",
                   CreatedDate = DateTime.Now
-              }
-              );
+              },
+              new Villa
+              {
+                  Id = 5,
+                  Name = "Diamond Pool Villa",
+                  Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
+                  ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa2.jpg",
+                  Occupancy = 4,
+                  Rate = 600,
+                  Sqft = 1100,
+                  Amenity = "",
+                  CreatedDate = DateTime.Now
+              });
         }
     }
 }
